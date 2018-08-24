@@ -3,14 +3,14 @@ import { NavLink as Link } from "react-router-dom";
 
 import "./style.css";
 const Navbar = () => (
-  <nav className="Navbar">
+  <nav className="Navbar" id="Home">
     <div>
       <Link to="/">
-        <img src="logo.png" alt="fasttrack logo" />
+        <img src="logo.png" alt="fasttrack logo" width="69px" />
       </Link>
     </div>
     <ul>
-      <Link to="/">
+      <Link to="/#Home">
         <li>HOME</li>
       </Link>
       <Link to="/#services">

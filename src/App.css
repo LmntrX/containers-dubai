@@ -1,0 +1,27 @@
+figcaption {
+  font-size: 16px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 56px;
+  color: #333333;
+  letter-spacing: -0.54px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 44px;
+  color: #ff6a00;
+  letter-spacing: -0.6px;
+  /* line-height: 48px; */
+}
+
+h3 {
+  /* Container Sales: */
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 1.71px;
+  text-align: center;
+  line-height: 22px;
+}

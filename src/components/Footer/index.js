@@ -5,13 +5,13 @@ const Footer = () => (
   <footer className="Footer">
     <span> © Fast Track Containers & Shipping Services</span>
     <ul>
-      <Link to="/">
+      <Link to="/#Home">
         <li>HOME</li>
       </Link>
       <Link to="/#services">
         <li>SERVICES</li>
       </Link>
-      <Link to="/gallery">
+      <Link to="gallery">
         <li>GALLERY</li>
       </Link>
       <Link to="/#contact">
