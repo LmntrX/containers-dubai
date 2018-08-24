@@ -1,0 +1,25 @@
+.Navbar {
+  display: flex;
+  height: 100px;
+}
+
+.Navbar div {
+  flex: 1;
+}
+
+.Navbar div img {
+  padding: 0em 1em 1em 1em;
+}
+
+.Navbar ul {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Navbar li {
+  display: inline-block;
+  cursor: pointer;
+}
