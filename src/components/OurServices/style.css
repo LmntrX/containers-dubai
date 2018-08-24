@@ -1,0 +1,10 @@
+.OurServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OurServices div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20vw, 25vw));
+  grid-gap: 1rem;
+}

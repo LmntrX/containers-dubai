@@ -1,0 +1,11 @@
+.WhyChooseUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WhyChooseUs div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20vw, 25vw));
+  grid-gap: 1rem;
+}
