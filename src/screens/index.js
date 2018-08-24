@@ -1,5 +1,5 @@
-import Home from "./Home";
-import Gallery from "./Gallery";
-import FourNaughtFour from "./FourNaughtFour";
+import HomeScreen from "./HomeScreen";
+import GalleryScreen from "./GalleryScreen";
+import FourNaughtFourScreen from "./FourNaughtFourScreen";
 
-export { Home, Gallery, FourNaughtFour };
+export { HomeScreen, GalleryScreen, FourNaughtFourScreen };

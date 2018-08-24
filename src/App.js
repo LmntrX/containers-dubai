@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, Gallery, FourNaughtFour } from "screens";
+import { HomeScreen, GalleryScreen, FourNaughtFourScreen } from "screens";
 import Header from "components/Header";
 import Footer from "components/Footer";
 class App extends Component {
@@ -12,9 +12,9 @@ class App extends Component {
           <React.Fragment>
             <Header />
             <Switch>
-              <Route exact path="/gallery" component={Gallery} />
-              <Route exact path="/" component={Home} />
-              <Route component={FourNaughtFour} />
+              <Route exact path="/gallery" component={GalleryScreen} />
+              <Route exact path="/" component={HomeScreen} />
+              <Route component={FourNaughtFourScreen} />
             </Switch>
             <Footer />
           </React.Fragment>
