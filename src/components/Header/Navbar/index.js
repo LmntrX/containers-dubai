@@ -1,15 +1,27 @@
 import React from "react";
+import { NavLink as Link } from "react-router-dom";
+
 import "./style.css";
 const Navbar = () => (
   <nav className="Navbar">
     <div>
-      <img src="logo.png" alt="fasttrack logo" />
+      <Link to="/">
+        <img src="logo.png" alt="fasttrack logo" />
+      </Link>
     </div>
     <ul>
-      <li>HOME</li>
-      <li>SERVICES</li>
-      <li>GALLERY</li>
-      <li>CONTACT</li>
+      <Link to="/">
+        <li>HOME</li>
+      </Link>
+      <Link to="/#services">
+        <li>SERVICES</li>
+      </Link>
+      <Link to="/gallery">
+        <li>GALLERY</li>
+      </Link>
+      <Link to="/#contact">
+        <li>CONTACT</li>
+      </Link>
     </ul>
   </nav>
 );

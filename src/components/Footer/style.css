@@ -12,14 +12,6 @@
   line-height: 28px;
 }
 
-.Footer ul:nth-child(2) {
-  font-weight: 600;
-  font-size: 16px;
-  color: var(--primary) !important;
-  letter-spacing: 0;
-  text-align: center;
-}
-
 .Footer ul {
   flex: 1;
   list-style: none;
@@ -28,7 +20,14 @@
   justify-content: space-around;
 }
 
-.Footer li {
-  display: inline-block;
-  cursor: pointer;
+.Footer a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary) !important;
+  letter-spacing: 0;
+  text-align: center;
+}
+.Footer a:hover {
+  color: var(--secondary) !important;
 }

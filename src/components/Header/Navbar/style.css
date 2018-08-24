@@ -21,5 +21,12 @@
 
 .Navbar li {
   display: inline-block;
-  cursor: pointer;
+}
+
+.Navbar a {
+  color: var(--secondary);
+}
+
+.Navbar a:hover {
+  color: var(--primary);
 }
