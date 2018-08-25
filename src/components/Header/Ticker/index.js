@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 const Ticker = () => (
   <nav className="Ticker">
-    <span>+971506817932 / +971565418329</span>
-    <span>info@containersdubai.com</span>
-    <span>Need Shipping containers ? Call now!</span>
+    <h3>+971506817932 / +971565418329</h3>
+    <h3>info@containersdubai.com</h3>
+    <h3>Need Shipping containers ? Call now!</h3>
   </nav>
 );
 

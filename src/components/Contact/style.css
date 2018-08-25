@@ -1,0 +1,23 @@
+.Contact {
+  color: white !important;
+  height: 38.75vw;
+  width: 100vw;
+  background-image: url("./contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right !important;
+}
+
+.Contact div h1,
+h2 {
+  color: white;
+}
+
+.Contact div {
+  position: relative;
+  top: 15%;
+  right: 5%;
+}
+.Contact div p {
+  text-transform: uppercase;
+}

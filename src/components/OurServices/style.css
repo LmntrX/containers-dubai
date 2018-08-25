@@ -5,6 +5,6 @@
 }
 .OurServices div {
   display: grid;
-  grid-template-columns: repeat(3, minmax(20vw, 25vw));
+  grid-template-columns: repeat(3, minmax(5vw, 25vw));
   grid-gap: 1rem;
 }

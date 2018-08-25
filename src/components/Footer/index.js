@@ -19,9 +19,7 @@ const Footer = () => (
       </Link>
     </ul>
     <ul>
-      <li>slack</li>
-      <li>twitter</li>
-      <li>facebook</li>
+      <li>???</li>
     </ul>
   </footer>
 );

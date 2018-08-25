@@ -1,7 +1,6 @@
 .Ticker {
   background-image: linear-gradient(144deg, #ff4b1f 0%, #ff9068 100%);
   height: 50px;
-  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -11,4 +10,8 @@
   letter-spacing: 1.71px;
   text-align: center;
   line-height: 22px;
+}
+
+.Ticker h3 {
+  color: #ffffff !important;
 }
