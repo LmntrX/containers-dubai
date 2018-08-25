@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>arr-circle-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M39,78 C17.4608948,78 0,60.5391052 0,39 C0,17.4608948 17.4608948,0 39,0 C60.5391052,0 78,17.4608948 78,39 C78,60.5391052 60.5391052,78 39,78 Z M39,77 C59.9868205,77 77,59.9868205 77,39 C77,18.0131795 59.9868205,1 39,1 C18.0131795,1 1,18.0131795 1,39 C1,59.9868205 18.0131795,77 39,77 Z" id="path-1"></path>
+        <path d="M2.24060092,13.021 L32.986,13.021 C33.2621424,13.021 33.486,13.2448576 33.486,13.521 C33.486,13.7971424 33.2621424,14.021 32.986,14.021 L2.23840356,14.021 L14.044,25.654 C14.1373127,25.7465666 14.1897983,25.8725625 14.1897983,26.004 C14.1897983,26.1354375 14.1373127,26.2614334 14.044,26.354 C13.9487606,26.4476149 13.8205451,26.5000503 13.687,26.5 C13.5536944,26.5018342 13.4251766,26.450355 13.33,26.357 L0.661,13.874 C0.566390285,13.7811101 0.513092112,13.6540878 0.513092112,13.5215 C0.513092112,13.3889122 0.566390285,13.2618899 0.661,13.169 L13.33,0.689 C13.5285271,0.495149088 13.8454729,0.495149088 14.044,0.689 C14.1386097,0.781889862 14.1919079,0.9089122 14.1919079,1.0415 C14.1919079,1.1740878 14.1386097,1.30111014 14.044,1.394 L2.24060092,13.021 Z" id="path-3"></path>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-160.000000, -2859.000000)" id="Testimonials-#15">
+            <g transform="translate(0.000000, 2786.000000)">
+                <g id="Slider-Controls" transform="translate(160.000000, 73.000000)">
+                    <g id="Element-/-Control-/-Arrows-/-L-Arrow-Circle">
+                        <g id="arr-circle-left">
+                            <g id="Group-3">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="#333333" xlink:href="#path-1"></use>
+                                <g id="Base-/-Fill-/-Gray" mask="url(#mask-2)" fill="#FFFFFF">
+                                    <g transform="translate(-35.000000, -39.000000)" id="Fill">
+                                        <rect x="0" y="0" width="150" height="150"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-2" transform="translate(22.000000, 25.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Arr" fill="#FFFFFF" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
