@@ -19,7 +19,7 @@ const Footer = () => (
       </Link>
     </ul>
     <ul>
-      <li>???</li>
+      <li>????</li>
     </ul>
   </footer>
 );
