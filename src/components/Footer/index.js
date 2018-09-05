@@ -5,18 +5,18 @@ const Footer = () => (
   <footer className="Footer">
     <span> © Fast Track Containers & Shipping Services</span>
     <ul>
-      <Link to="/#Home">
+      <a href="/#Home">
         <li>HOME</li>
-      </Link>
-      <Link to="/#services">
+      </a>
+      <a href="/#services">
         <li>SERVICES</li>
-      </Link>
+      </a>
       <Link to="gallery">
         <li>GALLERY</li>
       </Link>
-      <Link to="/#contact">
+      <a href="/#contact">
         <li>CONTACT</li>
-      </Link>
+      </a>
     </ul>
     <ul>
       {/* <li>????</li> */}

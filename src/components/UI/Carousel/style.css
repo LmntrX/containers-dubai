@@ -9,3 +9,13 @@
     transition:2000ms;
     opacity: 1;
 } */
+
+.div_Carousel_GridWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(5vw, 26vw));
+    grid-gap: 1rem;
+}
+
+figure{
+    text-align: center
+}

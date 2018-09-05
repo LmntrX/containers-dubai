@@ -5,6 +5,9 @@
 }
 .OurServices div {
   display: grid;
-  grid-template-columns: repeat(3, minmax(5vw, 25vw));
+  grid-template-columns: repeat(3, minmax(5vw, 26vw));
   grid-gap: 1rem;
+}
+figure{
+  margin: 10px 0px;
 }

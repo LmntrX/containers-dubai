@@ -1,6 +1,6 @@
 .Hero {
   display: flex;
   flex-direction: column;
-  padding: 0em 4rem;
+  padding: 0em 9rem;
   text-align: left;
 }
