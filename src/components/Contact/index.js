@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 const Contact = () => (
-  <section className="Contact">
+  <section className="Contact" id="contact">
     <div>
       <h2>Fast Track</h2>
       <h1>Container & Shipping Services</h1>

@@ -3,7 +3,7 @@ import "./style.css";
 import ServiceItem from "./ServiceItem";
 
 const OurServices = () => (
-  <section className="OurServices">
+  <section className="OurServices" id="services">
     <h2 style={style.header}>Our Services</h2>
     <span>Here is a list of services we offer</span>
     <div>
