@@ -9,11 +9,20 @@ const ServiceItem = props => (
       height="200px"
       style={{ objectFit: "cover", borderRadius: "5px" }}
     />
-    <h3>{props.title}</h3>
-    <figcaption style={{ color: "var(--secondary-lighter)" }}>
+    <h3 style={style.label}>{props.title}</h3>
+    <figcaption style={{ color: "var(--secondary-lighter)" ,...style.caption}}>
       {props.children}
     </figcaption>
   </figure>
 );
 
 export default ServiceItem;
+
+const style={
+  label:{
+    padding:'0px 50px'
+  },
+  caption:{
+    padding:'0px 50px'
+  }
+}

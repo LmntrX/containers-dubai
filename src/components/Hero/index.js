@@ -6,7 +6,7 @@ const Hero = () => (
   <section className="Hero">
     <h2 style={style.companyName}>Fast Track</h2>
     <h1 style={style.tagLine}>Container and Shipping Services </h1>
-    <span>
+    <span style={style.heroDescription}>
       Our company is a container and shipping services company located in Dubai
       and having yard at Sharjah and Dubai, we have a strong and special network
       all over the world.
@@ -30,5 +30,9 @@ const style={
     width:'271px',
     height:'50px',
     marginTop:'25px'
+  },
+  heroDescription:{
+    margin:'20px 0px',
+    maxWidth:'70%'
   }
 }

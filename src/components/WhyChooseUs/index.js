@@ -20,6 +20,7 @@ export default WhyChooseUs;
 const style={
   header:{
     color:'#000',
-    fontWeight:'bold'
+    fontWeight:'bold',
+    marginBottom:'50px'
   }
 }
