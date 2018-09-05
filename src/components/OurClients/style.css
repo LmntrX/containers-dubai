@@ -13,6 +13,7 @@
 .OurClients div:nth-child(1):hover {
   flex: 1;
   cursor: pointer;
+  transition: transform 1s;
   transform: scale(1.05);
 }
 .OurClients div:nth-child(2) {
