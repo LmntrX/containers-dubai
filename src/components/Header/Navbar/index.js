@@ -4,7 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 import "./style.css";
 const Navbar = () => (
   <nav className="Navbar" id="Home">
-    <div>
+    <div className="div_LogoWrapper_Navbar">
       <Link to="/">
         <img src="logo.png" alt="fasttrack logo" width="69px" />
       </Link>

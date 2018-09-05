@@ -4,7 +4,7 @@ import ServiceItem from "./ServiceItem";
 
 const OurServices = () => (
   <section className="OurServices">
-    <h1>Our Services</h1>
+    <h2 style={style.header}>Our Services</h2>
     <span>Here is a list of services we offer</span>
     <div>
       <ServiceItem title="Container Sales" src="1.jpg">
@@ -37,3 +37,10 @@ const OurServices = () => (
 );
 
 export default OurServices;
+
+const style={
+  header:{
+    color:'#000',
+    fontWeight:'bold'
+  }
+}

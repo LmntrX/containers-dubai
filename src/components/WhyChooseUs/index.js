@@ -4,7 +4,7 @@ import WhyItem from "./WhyItem";
 
 const WhyChooseUs = () => (
   <section className="WhyChooseUs">
-    <h1>Why Choose Us</h1>
+    <h2 style={style.header}>Why Choose Us</h2>
     <div>
       <WhyItem src="20.svg">20 Years in business</WhyItem>
       <WhyItem src="support.svg">Superior Customer Service</WhyItem>
@@ -17,3 +17,9 @@ const WhyChooseUs = () => (
 );
 
 export default WhyChooseUs;
+const style={
+  header:{
+    color:'#000',
+    fontWeight:'bold'
+  }
+}
