@@ -7,7 +7,10 @@ const images=[
     "3.jpg",
     "4.jpg",
     "5.jpg",
-    "6.jpg"
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg"
     ];
 class Carousel extends Component{
     state={
@@ -33,21 +36,22 @@ class Carousel extends Component{
         window.setInterval(()=>{
             let currentIndex=this.state.carouselPage;
             this.setImageSources((currentIndex+3)%images.length);
-        },2000)
+        },5000)
     }
+   
     setImageSources=(index)=>{
-        // document.getElementById('div_carousel_home_top_wrapper').ani
         this.setState({
             ...this.state,
             carouselPage:index
-        });
+        }); 
     }
+    
     prepareCarousel=()=>{
         return (
             <div style={this.style.carouselInnerWrapper} id="div_carousel_home_top_wrapper">
-                <img src={require(`assets/images/gallery/${images[this.state.carouselPage]}`)} style={this.style.image}/>
-                <img src={require(`assets/images/gallery/${images[this.state.carouselPage+1]}`)} style={this.style.image}/>
-                <img src={require(`assets/images/gallery/${images[this.state.carouselPage+2]}`)} style={this.style.image}/>
+                <img src={require(`assets/images/carousel/${images[this.state.carouselPage]}`)} style={this.style.image}/>
+                <img src={require(`assets/images/carousel/${images[this.state.carouselPage+1]}`)} style={this.style.image}/>
+                <img src={require(`assets/images/carousel/${images[this.state.carouselPage+2]}`)} style={this.style.image}/>
             </div>
         );
     }

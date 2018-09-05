@@ -1,2 +1,11 @@
 .Carousel {
 }
+/* .hidden{
+    transition: 2000ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.visible{
+    transition:2000ms;
+    opacity: 1;
+} */
