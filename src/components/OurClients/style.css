@@ -3,6 +3,7 @@
   height: 30vh;
   display: flex;
   align-items: center;
+  margin-top: 150px;
 }
 
 .OurClients div:nth-child(1) {
