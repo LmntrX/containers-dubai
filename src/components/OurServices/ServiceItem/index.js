@@ -20,9 +20,9 @@ export default ServiceItem;
 
 const style={
   label:{
-    padding:'0px 50px'
+    padding:'0px 45px'
   },
   caption:{
-    padding:'0px 50px'
+    padding:'0px 45px'
   }
 }

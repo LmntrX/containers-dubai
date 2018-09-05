@@ -2,6 +2,7 @@
   background-image: linear-gradient(144deg, #ff4b1f 0%, #ff9068 100%);
   height: 50px;
   display: flex;
+  padding: 0px 100px;
   align-items: center;
   justify-content: space-around;
   font-weight: 600;
@@ -14,4 +15,5 @@
 
 .Ticker h3 {
   color: #ffffff !important;
+  height: 22px;
 }

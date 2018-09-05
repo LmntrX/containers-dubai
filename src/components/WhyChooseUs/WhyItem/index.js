@@ -8,8 +8,14 @@ const WhyItem = props => (
       width="50vw"
       height="50vw"
     />
-    <h3>{props.children}</h3>
+    <h3 style={style.label}>{props.children}</h3>
   </figure>
 );
 
 export default WhyItem;
+
+const style={
+  label:{
+    padding:'0px 70px'
+  }
+}
