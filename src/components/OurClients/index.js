@@ -1,7 +1,18 @@
 import React from "react";
 import "./style.css";
 
-const clients=['Maharashtra Metal Scrap Tr LLC','Royal clock DWC LLC','Donaldson Company','Ghantoot Group'];
+const clients=[
+  'Maharashtra Metal Scrap Tr LLC',
+  'Royal clock DWC LLC',
+  'Donaldson Company',
+  'Ghantoot Group',
+  'Al Aujan & Oasis LLC',
+  'Al Jaber Group',
+  'Ali & Sons Co. LLC',
+  'TRISTAR ENGINEERING & CONSTRUCTION',
+  'Gulf Prefab Houses Factory LLC',
+  'FASCO CONSTRUCTION LLC'
+];
 
 class OurClients extends React.Component{
   constructor(){
@@ -56,6 +67,20 @@ const prepareSlider=(index)=>{
       <p style={style.clientListNameText}>{clients[3]}</p>
     </div>
   );
+  let page2=(
+    <div style={style.clientListWrapper}>
+      <p style={style.clientListNameText}>{clients[4]}</p>
+      <p style={style.clientListNameText}>{clients[5]}</p>
+      <p style={style.clientListNameText}>{clients[6]}</p>
+      <p style={style.clientListNameText}>{clients[7]}</p>
+    </div>
+  );
+  let page3=(
+    <div style={style.clientListWrapper}>
+      <p style={style.clientListNameText}>{clients[8]}</p>
+      <p style={style.clientListNameText}>{clients[9]}</p>
+    </div>
+  );
   pages.push(
     <div>
       <h2 style={style.header}>OUR CLIENTS</h2>
@@ -63,7 +88,8 @@ const prepareSlider=(index)=>{
     </div>
   );
   pages.push(page1);
-  console.log(pages);
+  pages.push(page2);
+  pages.push(page3);
   return(pages[index]);
 }
 

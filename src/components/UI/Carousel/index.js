@@ -25,7 +25,7 @@ class Carousel extends Component{
         },
         image:{
             height:'230px',
-            width:'346px',
+            width:'340px',
             borderRadius:'5px',
             objectFit:'cover',
         },
