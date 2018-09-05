@@ -30,5 +30,5 @@ header,
 section,
 footer {
   margin: 0;
-  padding: 1px; /* tweaked from 0 to 1px */
+  padding: 0px; /* tweaked from 0 to 1px */
 }
