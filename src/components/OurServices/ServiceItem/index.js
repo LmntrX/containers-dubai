@@ -5,8 +5,8 @@ const ServiceItem = props => (
     <img
       src={require(`assets/images/services/${props.src ? props.src : "1.jpg"}`)}
       alt="Our Service"
-      width="340px"
-      height="230px"
+      width="300px"
+      height="200px"
       style={{ objectFit: "cover", borderRadius: "5px" }}
     />
     <h3>{props.title}</h3>
