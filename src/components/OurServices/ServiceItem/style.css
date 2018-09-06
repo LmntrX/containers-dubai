@@ -1,0 +1,11 @@
+.h3_ServiceItem_label{
+    padding: 0px 45px;
+}
+.figcaption_ServiceItem_caption{
+    color: var(--secondary-lighter);
+    padding: 0px 45px;
+}
+.img_ServiceItem_image{
+    width:300px;
+    height:200px;
+}

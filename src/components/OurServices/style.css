@@ -12,3 +12,11 @@
 figure{
   margin: 10px 0px;
 }
+.h2_OurServices_header{
+  color:#000;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+.span_OurServices_serviceDescription{
+  margin-bottom: 50px;
+}

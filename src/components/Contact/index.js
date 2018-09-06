@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";
+import './desktop.css';
 const Contact = () => (
   <section className="Contact" id="contact">
-    <div>
+    <div className="div_Contact_contactData">
       <h2>Fast Track</h2>
       <h1>Container & Shipping Services</h1>
       <p>

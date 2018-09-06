@@ -30,3 +30,21 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+
+.h2_OurClients_header{
+  color:#fff;
+}
+.h2_OurClients_description{
+  font-size: 18px;
+  color: #fff;
+}
+.div_OurClients_clientListWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div_OurClients_clientListWrapper p{
+  color:#fff;
+  font-size: 20px;
+  width: 350px;
+}

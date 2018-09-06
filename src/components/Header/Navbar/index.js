@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink as Link } from "react-router-dom";
 
 import "./style.css";
+import './desktop.css';
 const Navbar = () => (
   <nav className="Navbar" id="Home">
     <div className="div_LogoWrapper_Navbar">

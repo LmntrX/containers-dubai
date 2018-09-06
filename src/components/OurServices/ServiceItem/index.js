@@ -1,28 +1,19 @@
 import React from "react";
+import './style.css';
+import './desktop.css';
 
 const ServiceItem = props => (
   <figure>
-    <img
+    <img className="img_ServiceItem_image"
       src={require(`assets/images/services/${props.src ? props.src : "1.jpg"}`)}
       alt="Our Service"
-      width="300px"
-      height="200px"
       style={{ objectFit: "cover", borderRadius: "5px" }}
     />
-    <h3 style={style.label}>{props.title}</h3>
-    <figcaption style={{ color: "var(--secondary-lighter)" ,...style.caption}}>
+    <h3 className="h3_ServiceItem_label">{props.title}</h3>
+    <figcaption className="figcaption_ServiceItem_caption">
       {props.children}
     </figcaption>
   </figure>
 );
 
 export default ServiceItem;
-
-const style={
-  label:{
-    padding:'0px 45px'
-  },
-  caption:{
-    padding:'0px 45px'
-  }
-}

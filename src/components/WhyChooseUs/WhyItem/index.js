@@ -1,21 +1,15 @@
 import React from "react";
+import './style.css';
+import './desktop.css';
 
 const WhyItem = props => (
-  <figure>
+  <figure className="WhyItem">
     <img
       src={require(`assets/images/why/${props.src ? props.src : "20.svg"}`)}
       alt="Our Service"
-      width="50vw"
-      height="50vw"
     />
-    <h3 style={style.label}>{props.children}</h3>
+    <h3 className="h3_WhyItem_label">{props.children}</h3>
   </figure>
 );
 
 export default WhyItem;
-
-const style={
-  label:{
-    padding:'0px 70px'
-  }
-}

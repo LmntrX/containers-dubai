@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .Hero{
+        padding:41px;
+    }
+    .h2_Hero_companyName{
+        font-size: 36px;	letter-spacing: -0.49px;	line-height: 48px;
+    }
+    .h1_Hero_tagLine{
+        font-size: 48px;	font-weight: 800;	letter-spacing: -0.46px;
+    }
+    .span_Hero_heroDescription{
+        margin: 23px 0px 41px 0px;
+        font-size: 18px;	line-height: 28px;
+    }
+    .Button_Hero_contactButton{
+        width:270px;
+        height: 50px;
+        margin: 0px;
+      }
+ }
+ 

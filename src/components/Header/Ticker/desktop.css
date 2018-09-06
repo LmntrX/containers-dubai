@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+   .Ticker{
+       justify-content: space-between;
+       padding:0px 44px;
+   }
+
+   .Ticker h3{
+       font-size: 14px;
+       letter-spacing: 1.5px;
+   }
+}

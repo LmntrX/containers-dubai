@@ -19,3 +19,15 @@
 figure{
     text-align: center
 }
+
+#div_carousel_home_top_wrapper figure img{
+    height:230px;
+    width:340px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.div_Carousel_wrapper{
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+}

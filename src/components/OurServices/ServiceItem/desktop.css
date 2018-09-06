@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .img_ServiceItem_image{
+        width: 290px;
+        height: 192px;;
+    }
+    .h3_ServiceItem_label{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
+    }
+    .figcaption_ServiceItem_caption{
+        font-size: 16px;	letter-spacing: -0.3px;	line-height: 24px;
+    }
+ }
+ 

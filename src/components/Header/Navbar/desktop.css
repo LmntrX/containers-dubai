@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .Navbar div.div_LogoWrapper_Navbar{
+        padding: 0px 40px;
+        flex:2.5
+    }
+    .Navbar div.div_LogoWrapper_Navbar a img{
+        padding: 0px 0px;
+    }
+    .Navbar ul{
+        padding: 0px 39px 0px 0px;
+        width: 464px;
+        justify-content: space-between;
+    }
+    .Navbar a{
+        font-size: 16px;
+        font-weight: 500;
+    }
+ }
+ 

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./style.css";
+import './desktop.css';
 
 const images=[
     "1.jpg",
@@ -15,26 +16,6 @@ const images=[
 class Carousel extends Component{
     state={
         carouselPage:0
-    }
-    style={
-        carouselInnerWrapper:{
-            // display:'grid',
-            // gridTemplateColumns:'repeat(3, minmax(5vw, 26<figure>vw))',
-            // gridGap:'1rem',
-            // textAlign:'center'
-        },
-        image:{
-            height:'230px',
-            width:'340px',
-            borderRadius:'5px',
-            objectFit:'cover',
-        },
-        wrapper:{
-            marginTop:'50px',
-            // padding:'0px 100px',
-            display:'flex',
-            justifyContent:'center'
-        }
     }
     componentDidMount(){
         window.setInterval(()=>{
@@ -52,16 +33,16 @@ class Carousel extends Component{
     
     prepareCarousel=()=>{
         return (
-            <div style={this.style.carouselInnerWrapper} id="div_carousel_home_top_wrapper" className="div_Carousel_GridWrapper">
-                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage]}`)} style={this.style.image}/></figure>
-                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+1]}`)} style={this.style.image}/></figure>
-                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+2]}`)} style={this.style.image}/></figure>
+            <div id="div_carousel_home_top_wrapper" className="div_Carousel_GridWrapper">
+                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage]}`)}/></figure>
+                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+1]}`)}/></figure>
+                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+2]}`)}/></figure>
             </div>
         );
     }
     render(){
         return(
-            <div style={this.style.wrapper}>
+            <div className="div_Carousel_wrapper">
                 {this.prepareCarousel()}
             </div>
         );

@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+import './desktop.css';
 import ServiceItem from "./ServiceItem";
 
 const OurServices = () => (
   <section className="OurServices" id="services">
-    <h2 style={style.header}>Our Services</h2>
-    <span style={style.serviceDescription}>Here is a list of services we offer</span>
+    <h2 className="h2_OurServices_header">Our Services</h2>
+    <span className="span_OurServices_serviceDescription">Here is a list of services we offer</span>
     <div>
       <ServiceItem title="Container Sales" src="1.jpg">
         New or used ie dry, special and reefers
@@ -37,14 +38,3 @@ const OurServices = () => (
 );
 
 export default OurServices;
-
-const style={
-  header:{
-    color:'#000',
-    fontWeight:'bold',
-    margin:'15px 0px'
-  },
-  serviceDescription:{
-    marginBottom :'50px'
-  }
-}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+import './desktop.css';
 const clients=[
   'Maharashtra Metal Scrap Tr LLC',
   'Royal clock DWC LLC',
@@ -60,31 +60,31 @@ class OurClients extends React.Component{
 const prepareSlider=(index)=>{
   let pages=[];
   let page1=(
-    <div style={style.clientListWrapper}>
-      <p style={style.clientListNameText}>{clients[0]}</p>
-      <p style={style.clientListNameText}>{clients[1]}</p>
-      <p style={style.clientListNameText}>{clients[2]}</p>
-      <p style={style.clientListNameText}>{clients[3]}</p>
+    <div className="div_OurClients_clientListWrapper">
+      <p>{clients[0]}</p>
+      <p>{clients[1]}</p>
+      <p>{clients[2]}</p>
+      <p>{clients[3]}</p>
     </div>
   );
   let page2=(
-    <div style={style.clientListWrapper}>
-      <p style={style.clientListNameText}>{clients[4]}</p>
-      <p style={style.clientListNameText}>{clients[5]}</p>
-      <p style={style.clientListNameText}>{clients[6]}</p>
-      <p style={style.clientListNameText}>{clients[7]}</p>
+    <div className="div_OurClients_clientListWrapper">
+      <p>{clients[4]}</p>
+      <p>{clients[5]}</p>
+      <p>{clients[6]}</p>
+      <p>{clients[7]}</p>
     </div>
   );
   let page3=(
-    <div style={style.clientListWrapper}>
-      <p style={style.clientListNameText}>{clients[8]}</p>
-      <p style={style.clientListNameText}>{clients[9]}</p>
+    <div className="div_OurClients_clientListWrapper">
+      <p>{clients[8]}</p>
+      <p>{clients[9]}</p>
     </div>
   );
   pages.push(
     <div>
-      <h2 style={style.header}>OUR CLIENTS</h2>
-      <p style={style.description}>View our most frequent clients</p>
+      <h2 className="h2_OurClients_header">OUR CLIENTS</h2>
+      <p className="h2_OurClients_description">View our most frequent clients</p>
     </div>
   );
   pages.push(page1);
@@ -94,23 +94,3 @@ const prepareSlider=(index)=>{
 }
 
 export default OurClients;
-
-const style={
-  header:{
-    color:'#fff'
-  },
-  description:{
-    fontSize:'18px',
-    color:'#fff'
-  },
-  clientListWrapper:{
-    display:'flex',
-    justifyContent:'center',
-    flexWrap:'wrap'
-  },
-  clientListNameText:{
-    color:'#fff',
-    fontSize:'20px',
-    width:'350px'
-  }
-}
