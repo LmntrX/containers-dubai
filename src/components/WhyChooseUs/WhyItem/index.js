@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css';
 import './desktop.css';
+import './tablet.css';
 
 const WhyItem = props => (
   <figure className="WhyItem">

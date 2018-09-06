@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .h2_OurServices_header{
+        font-size: 36px;	font-weight: bold;	letter-spacing: -0.49px;
+    }
+    .span_OurServices_serviceDescription{
+        font-size: 18px;	line-height: 28px;	text-align: center;
+    }
+    .OurServices div{
+        grid-template-columns:repeat(3, minmax(200px, 717px))
+    }
+    .OurServices{
+        padding: 41px;
+        margin-top: 60px;
+    }   
+}

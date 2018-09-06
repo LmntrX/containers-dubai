@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./style.css";
 import './desktop.css';
+import './tablet.css';
 
 const images=[
     "1.jpg",

@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .Contact{
+        height: 420px;
+        background-position: center;
+    }
+    .div_Contact_contactData h2{
+        font-size: 32px;	letter-spacing: -0.44px;	line-height: 48px;
+    }
+    .div_Contact_contactData h1{
+        font-size: 36px;	font-weight: bold;	letter-spacing: -0.49px;	line-height: 48px;
+    }
+    .div_Contact_contactData p{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
+        padding-left: 350px;
+    }   
+}

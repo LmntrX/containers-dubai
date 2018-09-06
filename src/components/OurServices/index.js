@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import './desktop.css';
+import "./tablet.css";
 import ServiceItem from "./ServiceItem";
 
 const OurServices = () => (
