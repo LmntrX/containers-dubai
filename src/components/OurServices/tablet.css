@@ -11,5 +11,7 @@
     .OurServices{
         padding: 41px;
         margin-top: 60px;
+        width: 768px;
+        margin: auto;
     }   
 }

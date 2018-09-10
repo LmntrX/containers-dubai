@@ -4,7 +4,7 @@
         background-position: center;
     }
     .div_Contact_contactData h2{
-        font-size: 36px;	letter-spacing: -0.49px;	line-height: 48px;
+        font-size: 36px;	letter-spacing: -0.49px;	line-height: 48px; text-transform: lowercase; font-style: italic;
     }
     .div_Contact_contactData h1{
         font-size: 40px;	font-weight: bold;	letter-spacing: -0.55px;	line-height: 48px;

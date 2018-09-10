@@ -1,9 +1,11 @@
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .Hero{
         padding:24px;
+        width: 768px;
+        margin: auto;
     }
     .h2_Hero_companyName{
-        font-size: 32px;	letter-spacing: -0.44px;	line-height: 48px;
+        font-size: 32px;	letter-spacing: -0.44px;	line-height: 48px; text-transform: lowercase; font-style: italic;
     }
     .h1_Hero_tagLine{
         margin:0px 0px 21px 0px;

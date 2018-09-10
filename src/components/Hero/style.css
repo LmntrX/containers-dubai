@@ -1,8 +1,10 @@
 .Hero {
   display: flex;
   flex-direction: column;
-  padding: 0em 9rem;
+  
   text-align: left;
+  width: 1440px;
+  margin: auto;
 }
 
 .h2_Hero_companyName{
@@ -20,4 +22,13 @@
 .span_Hero_heroDescription{
   margin: 20px 0px;
   max-width: 70%;
+}
+@media screen and (min-width: 1440px) and (max-width:10000px) {
+  .h2_Hero_companyName,.h1_Hero_tagLine,.span_Hero_heroDescription{
+    padding: 0em 9rem;
+  }
+  .Button_Hero_contactButton{
+    margin: 0em 9rem;
+  }
+
 }

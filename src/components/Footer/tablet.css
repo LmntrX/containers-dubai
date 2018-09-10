@@ -2,6 +2,9 @@
     .Footer{
         padding: 0px 24px;
         justify-content: space-between;
+        width:768px;
+        margin: auto;
+        height: 83px;
     }
     .Footer span{
         flex:2;

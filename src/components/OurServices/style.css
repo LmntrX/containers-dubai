@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:120px
+  width:1440px;
+  margin: auto;
+  margin-top:120px;
+
 }
 .OurServices div {
   display: grid;

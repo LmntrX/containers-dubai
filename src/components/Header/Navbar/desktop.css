@@ -7,13 +7,20 @@
         padding: 0px 0px;
     }
     .Navbar ul{
+        flex:2.5;
         padding: 0px 39px 0px 0px;
-        width: 464px;
+        max-width: 464px;
         justify-content: space-between;
     }
     .Navbar a{
         font-size: 16px;
         font-weight: 500;
+    }
+    .Navbar{
+        width: 1024px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
     }
  }
  

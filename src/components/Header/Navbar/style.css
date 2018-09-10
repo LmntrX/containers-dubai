@@ -1,7 +1,8 @@
 .Navbar {
   display: flex;
   height: 100px;
-
+  width: 1440px;
+  margin: auto;
 }
 
 .Navbar div.div_LogoWrapper_Navbar {

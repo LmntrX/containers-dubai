@@ -8,6 +8,7 @@
         height: 62px;	width: 46px;
     }
     .Navbar ul{
+        flex: 3;
         padding: 0px 39px 0px 0px;
         width: 464px;
         justify-content: space-between;
@@ -17,5 +18,9 @@
     }
     .img_logoNav{
 
+    }
+    .Navbar{
+        width:768px;
+        margin: auto;
     }
 }
