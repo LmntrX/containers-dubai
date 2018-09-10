@@ -3,13 +3,15 @@
   flex-direction: column;
   
   text-align: left;
-  width: 1440px;
+  width: 1115px;
   margin: auto;
 }
 
 .h2_Hero_companyName{
   color:#FF6A00;
   margin:40px 0px 0px 0px;
+  text-transform: lowercase;
+  font-style: italic;
 }
 .h1_Hero_tagLine{
   margin:30px 0px;
@@ -24,11 +26,14 @@
   max-width: 70%;
 }
 @media screen and (min-width: 1440px) and (max-width:10000px) {
-  .h2_Hero_companyName,.h1_Hero_tagLine,.span_Hero_heroDescription{
+  /* .h2_Hero_companyName,.h1_Hero_tagLine,.span_Hero_heroDescription{
     padding: 0em 9rem;
   }
   .Button_Hero_contactButton{
     margin: 0em 9rem;
+  } */
+  .Hero{
+    /* margin: 0px 160px; */
   }
 
 }

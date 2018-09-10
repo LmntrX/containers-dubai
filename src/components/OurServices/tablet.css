@@ -9,9 +9,9 @@
         grid-template-columns:repeat(3, minmax(200px, 717px))
     }
     .OurServices{
-        padding: 41px;
+        /* padding: 41px; */
         margin-top: 60px;
-        width: 768px;
+        width: 726px;
         margin: auto;
     }   
 }

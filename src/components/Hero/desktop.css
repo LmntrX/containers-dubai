@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) and (max-width:1439px) {
     .Hero{
-        padding:41px;
-        width:1024px;
+        /* padding:41px; */
+        width:936px;
         margin: auto;
     }
     .h2_Hero_companyName{

@@ -1,6 +1,6 @@
 .Contact {
   color: white !important;
-  height: 38.75vw;
+  height: 558px;
   max-width: 100%;
   background-image: url("./contact.jpg");
   background-repeat: no-repeat;
@@ -21,4 +21,20 @@ h2 {
 }
 .Contact div p {
   text-transform: uppercase;
+}
+.Contact div{
+  width: 1440px;
+  margin: auto;
+}
+.div_Contact_contactData h2{
+  text-transform: lowercase;
+  font-style: italic;
+  margin: 0px;
+}
+.div_Contact_contactData h1{
+  margin-top:20px; 
+}
+
+.div_Contact_contactData *{
+  margin: initial 0px;
 }

@@ -12,7 +12,7 @@
 
 .div_Carousel_GridWrapper{
     display: grid;
-    grid-template-columns: repeat(3, minmax(5vw, 26vw));
+    grid-template-columns: repeat(3, minmax(200px, 1115px));
     grid-gap: 1rem;
 }
 
@@ -30,4 +30,5 @@ figure{
     display: flex;
     justify-content:center;
     margin-top:50px;
+    max-width: 1115px;
 }

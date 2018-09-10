@@ -1,8 +1,8 @@
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .Footer{
-        padding: 0px 24px;
+        /* padding: 0px 24px; */
         justify-content: space-between;
-        width:768px;
+        width:726px;
         margin: auto;
         height: 83px;
     }

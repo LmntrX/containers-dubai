@@ -12,5 +12,9 @@
     .div_Contact_contactData p{
         font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
         padding-left: 350px;
-    }   
+    }
+    .Contact div{
+        width: 768px;
+        margin: auto;
+      }   
 }

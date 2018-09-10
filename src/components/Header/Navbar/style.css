@@ -1,14 +1,14 @@
 .Navbar {
   display: flex;
   height: 100px;
-  width: 1440px;
+  width: 1115px;
   margin: auto;
 }
 
 .Navbar div.div_LogoWrapper_Navbar {
   flex: 4;
   text-align: left;
-  padding: 0px 8rem;
+  /* padding: 0px 8rem; */
 }
 
 .Navbar div img {
@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0px 125px 0px 100px;
+  /* padding: 0px 125px 0px 100px; */
 }
 
 .Navbar li {
