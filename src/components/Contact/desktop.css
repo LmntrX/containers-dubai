@@ -15,7 +15,12 @@
     .Contact div{
         width: 1024px;
         margin: auto;
-      }
+    }
+    .div_Contact_contactData h1{
+        margin-top:0px;
+        margin-bottom: 50px; 
+    }
+
     
  }
  
