@@ -3,6 +3,7 @@ import Button from "components/UI/Button";
 import "./style.css";
 import './desktop.css';
 import './tablet.css';
+import './mobile.css';
 import Carousel from "../UI/Carousel";
 const Hero = () => (
   <section className="Hero">

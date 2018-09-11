@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import'./desktop.css';
 import './tablet.css';
+import './mobile.css';
 import WhyItem from "./WhyItem";
 
 const WhyChooseUs = () => (

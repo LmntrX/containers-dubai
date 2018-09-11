@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: right !important;
-  margin-top:-40px;
+  /* margin-top:-40px; */
 }
 
 .Contact div h1,
@@ -14,10 +14,13 @@ h2 {
   color: white;
 }
 
-.Contact div {
+/* .Contact div {
   position: relative;
   top: 15%;
   right: 5%;
+} */
+.div_Contact_contactData{
+  padding-top: 15%;
 }
 .Contact div p {
   text-transform: uppercase;

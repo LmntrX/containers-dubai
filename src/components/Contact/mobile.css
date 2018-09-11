@@ -1,0 +1,30 @@
+@media screen and (min-width: 578px) and (max-width:768px) {
+    .Contact{
+        height: 374px;
+        background-position: center;
+    }
+    .div_Contact_contactData{
+        margin: 0px;
+        padding: 0px;
+    }
+    .div_Contact_contactData h2{
+        font-size: 24px;	font-style: italic;	letter-spacing: -0.33px;	line-height: 48px;	text-align: center; text-transform: lowercase; font-style: italic;
+    }
+    .div_Contact_contactData h1{
+        font-size: 28px;	font-weight: bold;	letter-spacing: -0.38px;	line-height: 48px;	text-align: center;
+    }
+    .div_Contact_contactData p{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;	text-align: center;
+        margin: auto;
+        /* padding-left: 350px; */
+    }
+    .Contact div{
+        width: 560px;
+        padding-top:50px;
+    }
+    .div_Contact_contactData h1{
+        margin-top:0px;
+        margin-bottom: 50px; 
+    }
+    
+}

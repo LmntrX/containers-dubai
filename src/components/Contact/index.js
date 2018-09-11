@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import './desktop.css';
 import './tablet.css';
+import './mobile.css';
 const Contact = () => (
   <section className="Contact" id="contact">
     <div className="div_Contact_contactData">

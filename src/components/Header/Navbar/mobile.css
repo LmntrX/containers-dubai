@@ -1,0 +1,30 @@
+@media screen and (min-width: 578px) and (max-width:768px) {
+    .NavbarCollapsed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 560px;
+        margin: auto;
+    }
+    .NavbarCollapsed ul a{
+        text-decoration: none;
+    }
+    .NavbarCollapsed ul{
+        width: 100%;
+    }
+
+    .NavbarCollapsed ul a li{
+        list-style-type: none;
+        padding: 10px;
+        color: #000;
+        border: 1px solid #b5b5b5;
+        margin: 8px;
+    }
+    .NavbarCollapsed div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}

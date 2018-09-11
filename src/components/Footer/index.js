@@ -3,6 +3,7 @@ import { NavLink as Link } from "react-router-dom";
 import "./style.css";
 import './desktop.css';
 import './tablet.css';
+import './mobile.css';
 const Footer = () => (
   <footer className="Footer">
     <span> © Fast Track Containers & Shipping Services</span>

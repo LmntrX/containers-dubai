@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import './desktop.css';
 import './tablet.css';
+import './mobile.css';
 const clients=[
   'Maharashtra Metal Scrap Tr LLC',
   'Royal clock DWC LLC',

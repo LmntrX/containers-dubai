@@ -1,0 +1,8 @@
+@media screen and (min-width: 578px) and (max-width:768px) {
+    .div_Carousel_GridWrapper{
+        grid-template-columns: repeat(2, minmax(200px, 455px))
+    }
+    #div_carousel_home_top_wrapper figure img{
+        height: 215px;	width: 535px;
+    }
+}
