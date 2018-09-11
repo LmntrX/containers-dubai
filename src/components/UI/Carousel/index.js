@@ -21,7 +21,7 @@ class Carousel extends Component{
     componentDidMount(){
         window.setInterval(()=>{
             let currentIndex=this.state.carouselPage;
-            this.setImageSources((currentIndex+3)%images.length);
+            this.setImageSources((currentIndex+1)%images.length);
         },5000)
     }
    
@@ -36,8 +36,6 @@ class Carousel extends Component{
         return (
             <div id="div_carousel_home_top_wrapper" className="div_Carousel_GridWrapper">
                 <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage]}`)}/></figure>
-                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+1]}`)}/></figure>
-                <figure><img src={require(`assets/images/carousel/${images[this.state.carouselPage+2]}`)}/></figure>
             </div>
         );
     }

@@ -3,8 +3,8 @@
         grid-template-columns: repeat(3, minmax(200px, 931px))
     }
     #div_carousel_home_top_wrapper figure img{
-        width: 290px;
-        height: 192px;
+        width: 931px;
+        height: 256px;
     }
  }
  
