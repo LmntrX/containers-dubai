@@ -6,6 +6,9 @@ import './desktop.css';
 import './tablet.css'; 
 import './mobile.css';
 class Navbar extends React.Component{
+  state={
+    expanded:false
+  }
   navbarFullWidth=(
     <nav className="Navbar" id="Home">
         <div className="div_LogoWrapper_Navbar">
@@ -29,16 +32,22 @@ class Navbar extends React.Component{
         </ul>
       </nav>
   );
-
-  navbarCollapsed=(
-    <div className="NavbarCollapsed">
+  menuToggle=()=>{
+    this.setState({
+      ...this.state,
+      expanded:!this.state.expanded
+    });
+  }
+  navbarCollapsed=()=>{
+    return(
+      <div className="NavbarCollapsed">
       <div>
         <Link to="/">
           <img className="img_logoNav" src="logo.png" alt="fasttrack logo" width="69px" />
         </Link>
-        <img className="img_Navbarcollapsed_HamburgerMenu" src={require('assets/images/hamburger.svg')}/>
+        <img onClick={this.menuToggle} className="img_Navbarcollapsed_HamburgerMenu" src={require('assets/images/hamburger.svg')}/>
       </div>
-      <ul>
+      {(this.state.expanded?<ul>
         <a href="/#Home">
           <li>HOME</li>
         </a>
@@ -51,12 +60,13 @@ class Navbar extends React.Component{
         <a href="/#contact">
           <li>CONTACT</li>
         </a>
-      </ul>
+      </ul>:"")}
     </div>
-  );
+    );
+  }
   render(){
     if(window.innerWidth<768){
-      this.componentTobeRendered=this.navbarCollapsed;
+      this.componentTobeRendered=this.navbarCollapsed();
     }
     else{
       this.componentTobeRendered=this.navbarFullWidth;

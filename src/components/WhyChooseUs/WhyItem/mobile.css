@@ -10,3 +10,15 @@
         grid-template-columns: repeat(2, minmax(200px, 445px));
     }
 }
+@media screen and (min-width: 320px) and (max-width:577px) {
+    .WhyItem img{
+        height: 53px;	width: 53px;
+    }
+    .h3_WhyItem_label{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
+        padding: 0px 20px;
+    }
+    .WhyChooseUs div {
+        grid-template-columns: repeat(1, minmax(200px, 310px));
+    }
+}

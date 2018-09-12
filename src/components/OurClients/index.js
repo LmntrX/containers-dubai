@@ -42,13 +42,13 @@ class OurClients extends React.Component{
     return(
       <section className="OurClients">
         <div onClick={this.prev}>
-          <img src={require(`assets/images/arrow.svg`)} alt="Left Arrow" />
+          <img className="img_OurClients_Arrow" src={require(`assets/images/arrow.svg`)} alt="Left Arrow" />
         </div>
         <div>
           {prepareSlider(this.state.currentPage)}
         </div>
         <div onClick={this.next}>
-          <img
+          <img className="img_OurClients_Arrow"
             src={require(`assets/images/arrow.svg`)}
             alt="Right Arrow"
             style={{ transform: "rotate(180deg)" }}
