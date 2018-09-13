@@ -40,7 +40,8 @@ class OurClients extends React.Component{
 
   render(){
     return(
-      <section className="OurClients">
+      <section className="OurClientsWrapper">
+        <div className="OurClients">
         <div onClick={this.prev}>
           <img className="img_OurClients_Arrow" src={require(`assets/images/arrow.svg`)} alt="Left Arrow" />
         </div>
@@ -53,6 +54,7 @@ class OurClients extends React.Component{
             alt="Right Arrow"
             style={{ transform: "rotate(180deg)" }}
           />
+        </div>
         </div>
       </section>
     );

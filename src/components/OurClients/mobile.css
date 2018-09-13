@@ -1,6 +1,7 @@
-@media screen and (min-width: 578px) and (max-width:768px) {
+@media screen and (min-width: 578px) and (max-width:767px) {
     .OurClients{
         justify-content: space-between;
+        width: 560px;
     }
     .div_OurClients_clientListWrapper p{
         font-size: 14px;	line-height: 28px;	text-align: center; margin: 5px 0px;
@@ -11,16 +12,19 @@
         justify-content: space-around;
         position: relative;
         padding: 0px;
+        width: 320px;
     }
     .div_OurClients_clientListWrapper p{
         font-size: 14px;	line-height: 28px;	text-align: center; margin: 5px 0px; max-width: 250px;
     }
     .h2_OurClients_header{
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
+        margin: 2px;
     }
     .h2_OurClients_description{
-        font-size: 18px;
+        font-size: 12px;
+        margin: 2px;
     }
     .img_OurClients_Arrow{
         height: 30px;

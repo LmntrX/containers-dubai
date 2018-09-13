@@ -1,7 +1,9 @@
 @media screen and (min-width: 1024px) and (max-width:1439px) {
     .OurClients{
         justify-content: space-between;
+        width:1024px;
     }
+
     .div_OurClients_clientListWrapper p{
         font-size: 16px;
         width: 290px;

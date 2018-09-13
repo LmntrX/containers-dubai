@@ -5,6 +5,8 @@
     }
     .Navbar div.div_LogoWrapper_Navbar a img{
         padding: 0px 0px;
+        height: 93px;
+        width: 69px;
     }
     .Navbar ul{
         flex:2.5;
