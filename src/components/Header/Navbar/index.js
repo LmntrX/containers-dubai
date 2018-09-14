@@ -52,6 +52,7 @@ class Navbar extends React.Component{
       <div className="NavbarCollapseInner">
         <img src={require('assets/images/Close.svg')} id="CollapseMenuCloseSVG" onClick={()=>{
           this.menuToggle();
+          window.scrollTo(0,0);
         }}/>
         <ul>
           <a href="/#Home">
