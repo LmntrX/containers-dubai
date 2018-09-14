@@ -2,6 +2,7 @@
     .Contact{
         height: 374px;
         background-position: center;
+        background-image: url("./3.png");
     }
     .div_Contact_contactData{
         margin: 0px;
@@ -32,6 +33,7 @@
     .Contact{
         height: 250px;
         background-position: left;
+        background-image: url("./3.png");
     }
     .div_Contact_contactData{
         margin: 0px;

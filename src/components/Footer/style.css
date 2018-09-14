@@ -35,3 +35,6 @@
 .Footer a:hover {
   color: var(--secondary) !important;
 }
+.img_totop{
+  display: none;
+}

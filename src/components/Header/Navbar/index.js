@@ -5,6 +5,7 @@ import "./style.css";
 import './desktop.css';
 import './tablet.css'; 
 import './mobile.css';
+import Ticker from '../Ticker';
 class Navbar extends React.Component{
   state={
     expanded:false
@@ -41,26 +42,35 @@ class Navbar extends React.Component{
   navbarCollapsed=()=>{
     return(
       <div className="NavbarCollapsed">
-      <div>
+      <div className="div_MenuTopbar">
         <Link to="/">
           <img className="img_logoNav" src="logo.png" alt="fasttrack logo" width="69px" />
         </Link>
         <img onClick={this.menuToggle} className="img_Navbarcollapsed_HamburgerMenu" src={require('assets/images/hamburger.svg')}/>
       </div>
-      {(this.state.expanded?<ul>
-        <a href="/#Home">
-          <li>HOME</li>
-        </a>
-        <a href="/#services">
-          <li>SERVICES</li>
-        </a>
-        <Link to="/gallery">
-          <li>GALLERY</li>
-        </Link>
-        <a href="/#contact">
-          <li>CONTACT</li>
-        </a>
-      </ul>:"")}
+      {(this.state.expanded?
+      <div className="NavbarCollapseInner">
+        <img src={require('assets/images/Close.svg')} id="CollapseMenuCloseSVG" onClick={()=>{
+          this.menuToggle();
+        }}/>
+        <ul>
+          <a href="/#Home">
+            <li onClick={()=>{this.menuToggle()}}>HOME</li>
+          </a>
+          <a href="/#services">
+            <li onClick={()=>{this.menuToggle()}}>SERVICES</li>
+          </a>
+          <Link to="/gallery">
+            <li onClick={()=>{this.menuToggle()}}>GALLERY</li>
+          </Link>
+          <a href="/#contact">
+            <li onClick={()=>{this.menuToggle()}}>CONTACT</li>
+          </a>
+        </ul>
+        <Ticker style={{backgroundImage:'none',position:'fixed', bottom:'27px'}}/>
+      </div>
+      :"")
+      }
     </div>
     );
   }
