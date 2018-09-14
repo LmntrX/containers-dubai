@@ -36,9 +36,9 @@
         background: linear-gradient(144.32deg, #FF4B1F 0%, #FF9068 100%);
         position: fixed;
         z-index: 100;
-        top:0px;
+        /* top:0px; */
         left: 0px;
-        /* bottom: 0px; */
+        bottom: 0px;
         right: 0px;
         height: 100vh;
         display: flex;
@@ -93,9 +93,9 @@
         background: linear-gradient(144.32deg, #FF4B1F 0%, #FF9068 100%);
         position: fixed;
         z-index: 100;
-        top:0px;
+        /* top:0px; */
         left: 0px;
-        /* bottom: 0px; */
+        bottom: 0px;
         right: 0px;
         height: 100vh;
         display: flex;
