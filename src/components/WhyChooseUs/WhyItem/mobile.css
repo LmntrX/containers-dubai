@@ -15,10 +15,11 @@
         height: 42px;	width: 42px;
     }
     .h3_WhyItem_label{
-        font-size: 14px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
-        padding: 0px 20px;
+        font-size: 14px;	font-weight: 600;	letter-spacing: 1px;	line-height: 16px;
+        padding: 0px 0px;
     }
     .WhyChooseUs div {
-        grid-template-columns: repeat(2, minmax(100px, 310px));
+        grid-template-columns: repeat(2, minmax(100px, 320px));
+        grid-gap: 0px;
     }
 }
