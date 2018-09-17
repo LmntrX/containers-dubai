@@ -68,7 +68,7 @@ class Navbar extends React.Component{
             <li onClick={()=>{this.menuToggle()}}>CONTACT</li>
           </a>
         </ul>
-        <Ticker style={{backgroundImage:'none',position:'fixed', bottom:'27px'}}/>
+        {(window.width<578)?<Ticker style={{backgroundImage:'none',position:'fixed', bottom:'27px'}}/>:""}
       </div>
       :"")
       }
