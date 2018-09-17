@@ -1,10 +1,126 @@
 .GalleryScreen {
-  padding: 1vw 10vw;
+  padding: 1vw 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1115px;
+  margin: auto;
 }
 .GalleryScreen h2{
   color:#000;
   font-weight:bold;
+}
+.availableItems{
+  display: flex;
+  justify-content: space-between;
+  width: 1115px;
+}
+.div_gallery_spacer{
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+  .GalleryScreen {
+    padding: 1vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 936px;
+    margin: auto;
+  }
+  .GalleryScreen h2{
+    color:#000;
+    font-weight:bold;
+  }
+  .availableItems{
+    display: flex;
+    justify-content: space-between;
+    width: 944px;
+  }
+  .div_gallery_spacer{
+    margin-top: 60px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .GalleryScreen {
+    padding: 1vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 714px;
+    margin: auto;
+  }
+  .GalleryScreen h2{
+    color:#000;
+    font-weight:bold;
+  }
+  .availableItems{
+    display: flex;
+    justify-content: space-between;
+    width: 714px;
+  }
+  .div_gallery_spacer{
+    margin-top: 60px;
+  }
+}
+
+
+
+@media screen and (min-width: 578px) and (max-width:767px) {
+  .GalleryScreen {
+    padding: 1vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    margin: auto;
+  }
+  .GalleryScreen h2{
+    color:#000;
+    font-weight:bold;
+  }
+  .availableItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 550px;
+  }
+  .div_gallery_spacer{
+    margin-top: 60px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width:577px) {
+  .GalleryScreen {
+    padding: 1vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    margin: auto;
+  }
+  .GalleryScreen h2{
+    color:#000;
+    font-weight:bold;
+  }
+  .availableItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 310px;
+  }
+  .div_gallery_spacer{
+    margin-top: 60px;
+  }
 }
