@@ -2,6 +2,7 @@
   /* Button: */
   background: #000000;
   border-radius: 100px;
+  border: none;
   padding: 1em 3em;
   cursor: pointer;
 
