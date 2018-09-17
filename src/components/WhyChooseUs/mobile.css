@@ -11,6 +11,7 @@
 @media screen and (min-width: 320px) and (max-width:577px) {
     .WhyChooseUs h2{
         font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 48px;
+        margin: 5px;
     }
     .WhyChooseUs{
         width: 310px;

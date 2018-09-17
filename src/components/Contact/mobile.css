@@ -40,10 +40,10 @@
         padding: 0px;
     }
     .div_Contact_contactData h2{
-        font-size: 16px;	font-style: italic;	letter-spacing: -0.22px;	line-height: 18px;	text-align: center; text-transform: lowercase; font-style: italic;
+        font-size: 20px;	font-style: italic;	letter-spacing: -0.22px;	line-height: 18px;	text-align: center; text-transform: lowercase; font-style: italic;
     }
     .div_Contact_contactData h1{
-        font-size: 18px;	font-weight: bold;	letter-spacing: -0.25px;	line-height: 28px;	text-align: center;
+        font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 24px;	text-align: center;
     }
     .div_Contact_contactData p{
         font-size: 14px;	font-weight: 600;	letter-spacing: 1px;	line-height: 16px;	text-align: center;

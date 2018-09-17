@@ -55,8 +55,8 @@
 
 @media screen and (min-width: 320px) and (max-width:577px) {
     .img_logoNav{
-        height: 36px;
-        width: 27px;
+        height: 48px;
+        width: 36px;
     }
     .NavbarCollapsed {
         display: flex;

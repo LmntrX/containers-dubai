@@ -17,18 +17,19 @@
 }
 @media screen and (min-width: 320px) and (max-width:577px) {
     .h2_OurServices_header{
-        font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 48px;
+        font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 20px; margin: 0px;
     }
     .span_OurServices_serviceDescription{
-        font-size: 16px;	line-height: 28px;	text-align: center;
+        font-size: 14px;	line-height: 28px;	text-align: center; margin: 0px;
     }
     .OurServices div{
         grid-template-columns:repeat(1, minmax(200px, 310px));
+        grid-gap: 0px;
     }
     .OurServices{
         /* padding: 41px; */
         width: 310px;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 20px;
     }   
 }

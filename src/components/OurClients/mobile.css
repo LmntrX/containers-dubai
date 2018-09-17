@@ -12,13 +12,14 @@
         justify-content: space-around;
         position: relative;
         padding: 0px;
-        width: 320px;
+        width: 100%;
+        margin: 0px;
     }
     .div_OurClients_clientListWrapper p{
         font-size: 14px;	line-height: 28px;	text-align: center; margin: 5px 0px; max-width: 250px;
     }
     .h2_OurClients_header{
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bold;
         margin: 2px;
     }
