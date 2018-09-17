@@ -14,7 +14,7 @@
     }
     .span_Hero_heroDescription{
         margin: 21px 0px 24px 0px;
-        font-size: 16px;	line-height: 28px;	text-align: center;
+        font-size: 16px;	line-height: 28px;	text-align: justify;
         max-width: 100%;
     }
     .Button_Hero_contactButton{
@@ -41,7 +41,7 @@
     }
     .span_Hero_heroDescription{
         margin: 8px 0px 24px 0px;
-        font-size: 14px;	line-height: 24px;	text-align: center;
+        font-size: 14px;	line-height: 24px;	text-align: justify;
         max-width: 100%;
     }
     .Button_Hero_contactButton{

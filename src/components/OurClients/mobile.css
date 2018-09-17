@@ -4,7 +4,7 @@
         width: 560px;
     }
     .div_OurClients_clientListWrapper p{
-        font-size: 14px;	line-height: 28px;	text-align: center; margin: 5px 0px;
+        font-size: 12px;	line-height: 28px;	text-align: center; margin: 5px 0px;
     }
 }
 @media screen and (min-width: 320px) and (max-width:577px) {
@@ -16,7 +16,7 @@
         margin: 0px;
     }
     .div_OurClients_clientListWrapper p{
-        font-size: 14px;	line-height: 28px;	text-align: center; margin: 5px 0px; max-width: 250px;
+        font-size: 12px;	line-height: 28px;	text-align: center; margin: 5px 0px; max-width: 250px;
     }
     .h2_OurClients_header{
         font-size: 24px;
