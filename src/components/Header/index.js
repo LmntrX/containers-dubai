@@ -3,7 +3,7 @@ import Ticker from "./Ticker";
 import Navbar from "./Navbar";
 const Header = () => (
   <header>
-    <Ticker />
+    <Ticker className="TickerOnNavbar" />
     <Navbar />
   </header>
 );
