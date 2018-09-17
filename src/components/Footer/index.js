@@ -21,7 +21,9 @@ const Footer = () => (
         <li>CONTACT</li>
       </a>
     </ul>
-    <a href="#ticker"><img src={require('assets/images/To Top.svg')} className="img_totop"></img></a>
+    <img src={require('assets/images/To Top.svg')} className="img_totop" onClick={()=>{
+      window.scrollTo(0,0);
+    }}></img>
   </footer>
 );
 
