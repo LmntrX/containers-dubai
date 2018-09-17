@@ -33,7 +33,7 @@
         text-align: center;
     }
     .h2_Hero_companyName{
-        font-size: 20px;	font-style: italic;	letter-spacing: -0.22px;	line-height: 28px;
+        font-size: 20px;	font-style: italic;	letter-spacing: -0.22px;	line-height: 28px; margin-top: 0px;
     }
     .h1_Hero_tagLine{
         margin:0px 0px 11px 0px;
