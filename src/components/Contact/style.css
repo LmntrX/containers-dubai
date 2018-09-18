@@ -1,10 +1,11 @@
 .Contact {
   color: white !important;
-  height: 558px;
+  height: 650px;
   max-width: 100%;
   background-image: url("./1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   text-align: right !important;
   /* margin-top:-40px; */
 }
