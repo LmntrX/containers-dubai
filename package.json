@@ -10,7 +10,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "http://lmntrx.github.io/containers-dubai",
+  "homepage": "http://containersdubai.com",
   "scripts": {
     "start": "NODE_PATH=src react-scripts start",
     "build": "NODE_PATH=src react-scripts build",
