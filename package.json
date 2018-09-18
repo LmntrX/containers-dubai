@@ -16,6 +16,6 @@
     "build": "NODE_PATH=src react-scripts build",
     "test": "NODE_PATH=src react-scripts test --env=jsdom",
     "eject": "NODE_PATH=src react-scripts eject",
-    "deploy": "yarn run build && gh-pages -d build"
+    "deploy": "yarn run build && cp ./CNAME ./build/CNAME && gh-pages -d build"
   }
 }
