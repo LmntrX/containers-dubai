@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
 import "./style.css";
-import './desktop.css';
-import './tablet.css';
-import './mobile.css';
+import "./desktop.css";
+import "./tablet.css";
+import "./mobile.css";
 const Footer = () => (
   <footer className="Footer">
-    <span> © Fast Track Containers & Shipping Services</span>
+    <span> © Fast Track Container & Shipping Services</span>
     <ul>
       <a href="/#Home">
         <li>HOME</li>
@@ -21,9 +21,13 @@ const Footer = () => (
         <li>CONTACT</li>
       </a>
     </ul>
-    <img src={require('assets/images/To Top.svg')} className="img_totop" onClick={()=>{
-      window.scrollTo(0,0);
-    }}></img>
+    <img
+      src={require("assets/images/To Top.svg")}
+      className="img_totop"
+      onClick={() => {
+        window.scrollTo(0, 0);
+      }}
+    />
   </footer>
 );
 
