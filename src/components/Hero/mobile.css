@@ -40,7 +40,7 @@
         font-size: 24px;	font-weight: 800;	letter-spacing: -0.17px;	line-height: 29px;
     }
     .span_Hero_heroDescription{
-        margin: 8px 0px 24px 0px;
+        margin: 8px 0px 10px 0px;
         font-size: 14px;	line-height: 24px;	text-align: justify;
         max-width: 100%;
     }
@@ -50,6 +50,8 @@
         margin: 0px;
         font-size: 16px;
         font-family: Montserrat;
+        margin: 20px;
+        margin-top: 0px;
     }
     .div_HeroInner{
         width: 310px;

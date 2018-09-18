@@ -21,7 +21,7 @@ figure{
 }
 
 #div_carousel_home_top_wrapper figure img{
-    height:289px;
+    height:589px;
     width:1115px;
     border-radius: 5px;
     object-fit: cover;
@@ -29,6 +29,6 @@ figure{
 .div_Carousel_wrapper{
     display: flex;
     justify-content:center;
-    margin-top:50px;
+    margin-top:20px;
     max-width: 1115px;
 }

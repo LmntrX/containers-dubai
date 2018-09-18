@@ -19,6 +19,9 @@
     }
     .div_Contact_contactData h1{
         margin-top:0px;
-        margin-bottom: 50px; 
+        margin-bottom: 20px; 
+    }
+    .div_Contact_contactData{
+        padding-top: 80px;
     }
 }

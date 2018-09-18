@@ -19,12 +19,12 @@
 .Button_Hero_contactButton{
   width:271px;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 15px;
   padding: 0px;
   font-family: Montserrat;
 }
 .span_Hero_heroDescription{
-  margin: 20px 0px;
+  margin: 5px 0px;
   max-width: 70%;
 }
 @media screen and (min-width: 1440px) and (max-width:10000px) {
