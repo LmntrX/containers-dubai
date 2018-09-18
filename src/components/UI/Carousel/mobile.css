@@ -3,7 +3,7 @@
         grid-template-columns: repeat(1, minmax(200px, 535px))
     }
     #div_carousel_home_top_wrapper figure img{
-        height: 215px;	width: 535px;
+        height: 400px;	width: 535px;
     }
 }
 @media screen and (min-width: 320px) and (max-width:577px) {
@@ -12,6 +12,6 @@
         grid-template-columns: repeat(1, minmax(10%, 100%))
     }
     #div_carousel_home_top_wrapper figure img{
-        height: 175px;	width: 100vw;
+        height: 300px;	width: 100vw;
     }
 }
