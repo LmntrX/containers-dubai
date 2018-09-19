@@ -4,7 +4,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HomeScreen, GalleryScreen, FourNaughtFourScreen } from "screens";
 import Header from "components/Header";
 import Footer from "components/Footer";
+import ReactGA from 'react-ga';
 class App extends Component {
+  constructor(){
+    super();
+    ReactGA.initialize('UA-126028314-1');
+    ReactGA.pageview('/Home');
+  }
   render() {
     return (
       <div className="App">

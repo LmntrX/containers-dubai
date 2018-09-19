@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Gallery from "components/UI/Gallery";
 import ItemList from './ItemList';
+import ReactGA from 'react-ga';
 const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 const listData=[
   {
@@ -24,18 +25,22 @@ const listData=[
   }
 ];
 
-const GalleryScreen = () => (
-  <div className="GalleryScreen">
-    <h2>Gallery</h2>
-    <span>A sneak peak into our yard!!</span>
-    <div className="availableItems">
-      <ItemList data={listData[0]}></ItemList>
-      <ItemList data={listData[1]}></ItemList>
-      <ItemList data={listData[2]}></ItemList>
+const GalleryScreen = () => {
+  ReactGA.initialize('UA-126028314-1');
+  ReactGA.pageview('/gallery');
+  return(
+    <div className="GalleryScreen">
+      <h2>Gallery</h2>
+      <span>A sneak peak into our yard!!</span>
+      <div className="availableItems">
+        <ItemList data={listData[0]}></ItemList>
+        <ItemList data={listData[1]}></ItemList>
+        <ItemList data={listData[2]}></ItemList>
+      </div>
+      <div className="div_gallery_spacer"></div>
+      <Gallery images={images} />
     </div>
-    <div className="div_gallery_spacer"></div>
-    <Gallery images={images} />
-  </div>
-);
+  );
+}
 
 export default GalleryScreen;
