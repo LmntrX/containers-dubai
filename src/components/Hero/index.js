@@ -4,6 +4,7 @@ import "./style.css";
 import './desktop.css';
 import './tablet.css';
 import './mobile.css';
+import { HashLink as HLink } from 'react-router-hash-link';
 import Carousel from "../UI/Carousel";
 const Hero = () => (
   <section className="Hero">
@@ -15,7 +16,7 @@ const Hero = () => (
         and having yard at Sharjah and Dubai, we have a strong and special network
         all over the world.
       </span>
-      <Button to="#contact" className="Button_Hero_contactButton">Contact Us</Button>
+      <HLink to="/#contact"><Button className="Button_Hero_contactButton">Contact Us</Button></HLink>
     </div>
     <Carousel />
   </section>
