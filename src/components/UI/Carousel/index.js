@@ -4,7 +4,7 @@ import "./desktop.css";
 import "./tablet.css";
 import "./mobile.css";
 
-const images = ["2.jpg", "3.jpg", "4.jpg", "b.jpg"];
+const images = ["2.jpg", "3.jpg", "4.jpg", "b.jpg", "c.jpg"];
 class Carousel extends Component {
   state = {
     carouselPage: 0
