@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { HomeScreen, GalleryScreen, FourNaughtFourScreen } from "screens";
 import Header from "components/Header";
 import Footer from "components/Footer";
