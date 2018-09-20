@@ -6,6 +6,8 @@ import './desktop.css';
 import './tablet.css'; 
 import './mobile.css';
 import Ticker from '../Ticker';
+import { HashLink as HLink } from 'react-router-hash-link';
+
 class Navbar extends React.Component{
   state={
     expanded:false
@@ -18,18 +20,20 @@ class Navbar extends React.Component{
           </Link>
         </div>
         <ul>
-          <a href="/#Home">
+          <a href="/">
             <li>HOME</li>
           </a>
-          <a href="/#services">
+          {/* <a href="##services">
             <li>SERVICES</li>
-          </a>
+          </a> */}
+          <HLink to="/#services"><li>SERVICES</li></HLink>
           <Link to="/gallery">
             <li>GALLERY</li>
           </Link>
-          <a href="/#contact">
+          {/* <a href="/#contact">
             <li>CONTACT</li>
-          </a>
+          </a> */}
+          <HLink to="/#contact"><li>CONTACT</li></HLink>
         </ul>
       </nav>
   );
@@ -55,18 +59,21 @@ class Navbar extends React.Component{
           window.scrollTo(0,0);
         }}/>
         <ul>
-          <a href="/#Home">
+          <a href="/">
             <li onClick={()=>{this.menuToggle()}}>HOME</li>
           </a>
-          <a href="/#services">
+          {/* <HLink to="/#Home"><li onClick={()=>{this.menuToggle()}}>HOME</li></HLink> */}
+          {/* <a href="/#services">
             <li onClick={()=>{this.menuToggle()}}>SERVICES</li>
-          </a>
+          </a> */}
+          <HLink to="/#services"><li onClick={()=>{this.menuToggle()}}>SERVICES</li></HLink>
           <Link to="/gallery">
             <li onClick={()=>{this.menuToggle()}}>GALLERY</li>
           </Link>
-          <a href="/#contact">
+          {/* <a href="/#contact">
             <li onClick={()=>{this.menuToggle()}}>CONTACT</li>
-          </a>
+          </a> */}
+          <HLink to="/#contact"><li onClick={()=>{this.menuToggle()}}>CONTACT</li></HLink>
         </ul>
         {(window.innerWidth<578?<Ticker style={{backgroundImage:'none',position:'fixed', bottom:'27px'}}/>:"")}
       </div>

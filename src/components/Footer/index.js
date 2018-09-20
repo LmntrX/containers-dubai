@@ -4,22 +4,25 @@ import "./style.css";
 import "./desktop.css";
 import "./tablet.css";
 import "./mobile.css";
+import { HashLink as HLink } from 'react-router-hash-link';
 const Footer = () => (
   <footer className="Footer">
     <span> © Fast Track Container & Shipping Services</span>
     <ul>
-      <a href="/#Home">
+      <a href="/">
         <li>HOME</li>
       </a>
-      <a href="/#services">
+      {/* <a href="/#services">
         <li>SERVICES</li>
-      </a>
+      </a> */}
+      <HLink to="/#services"><li>SERVICES</li></HLink>
       <Link to="gallery">
         <li>GALLERY</li>
       </Link>
-      <a href="/#contact">
+      {/* <a href="/#contact">
         <li>CONTACT</li>
-      </a>
+      </a> */}
+      <HLink to="/#contact"><li>CONTACT</li></HLink>
     </ul>
     <img
       src={require("assets/images/To Top.svg")}
